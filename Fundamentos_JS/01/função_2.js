@@ -1,20 +1,22 @@
-console.log(typeof Object);
-
-console.log("---------------------");
-class Produto {};
-console.log(typeof Produto);
-
-console.log("---------------------");
-function imprimirSoma(a, b) {
+const imprimirSoma = function(a, b) {
     console.log(a + b);
-};
+}
 
-imprimirSoma(1, 1);
+imprimirSoma(2, 4);
 
-console.log("---------------------");
-function soma(a, b = 1) {
+console.log("---------------");
+const soma = (a, b) => {
     return a + b;
-};
+}
 
-console.log(soma(5));
-console.log(soma(5, 2));
+console.log(soma(2, 8));
+
+console.log("---------------");
+const subtracao = (a, b) => a - b;
+
+console.log(subtracao(2, 8));
+
+console.log("---------------");
+const imprimir2 = a => console.log(a);
+
+imprimir2("MASSA!");
