@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anatomia HTML</title>
+    <style>
+        h1 {
+            font-size: 20px;
+        }
+
+        .fundoVermelho {
+            background-color: #c00;
+            margin: 10px;
+        }
+
+        .negrito {
+            font-weight: bold;
+        }
+
+        #textoPrincipal {
+            font-size: 40px;
+            font-weight: bold;
+            color: #fff;
+            padding: 10px;
+            background-color: #444;
+        }
+    </style>
+
+    <script>
+        document.querySelector('[wm-atrib]') // craindo Atributo
+    </script>
+</head>
+<body>
+    <header>
+        <h1>
+            Exercícios HTML
+        </h1>
+    </header>
+
+    <nav>
+        <a href="#">Navegação 1</a>
+    </nav>
+
+    <section id="textoPrincipal">
+        Conteúdo
+    </section>
+
+    <aside class="fundoVermelho negrito">
+        Lateral
+    </aside>
+
+    <footer class="fundoVermelho negrito" wm-atrib>
+        Rodapé 
+    </footer>
+</body>
+</html>
