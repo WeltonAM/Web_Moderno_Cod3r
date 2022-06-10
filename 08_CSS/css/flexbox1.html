@@ -6,7 +6,31 @@
     <title>Flexbox #01</title>
     <link rel="stylesheet" href="css/tag.css">
     <style>
-        /* ... */
+        .tag label {
+            display: none;
+        }
+
+        .big {
+            font-size: 1.5em;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            flex-wrap: wrap;
+            flex-flow: row wrap;
+            height: 200px;
+
+            justify-content: space-around;
+
+            /* Cross Axis */
+            height: 400px;
+            align-items: baseline;
+
+            /* mais de uma linha */
+            align-content: flex-end;
+        }
     </style>
 </head>
 
